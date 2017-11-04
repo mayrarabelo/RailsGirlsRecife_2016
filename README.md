@@ -9,7 +9,7 @@ Tutorial: http://www.maujor.com/railsgirlsguide/
 
 ### Configuração do ambiente:
   
-Uso a distribuição Antergos, baseada no Arch Linux, então segui com um torial de instalação para Linux. Instalei o Ruby, sqlite3 e o Rails, mas nesse parte recebo a seguinte mensagem do terminal:
+Uso a distribuição Antergos, baseada no Arch Linux, então segui com um tutorial de instalação para Linux. Instalei o Ruby, sqlite3 e o Rails, mas nesse parte recebo a seguinte mensagem do terminal:
 ```
 [user@hostname]: ~>$ gem install rails
 WARNING:  You don't have /home/user/.gem/ruby/2.4.0/bin in your PATH,
