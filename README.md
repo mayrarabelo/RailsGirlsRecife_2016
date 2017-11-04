@@ -1,13 +1,13 @@
 ## Rails Girls Recife 2016
 
-Esse projeto foi elaborado em equipe (eu & [@yankasantos](https://github.com/yankasantos)) no evento Rails Girls Recife, em 19/11/2016. @yankasantos
+Esse projeto foi elaborado em equipe (eu & [@yankasantos](https://github.com/yankasantos)) no evento Rails Girls Recife, em 19/11/2016.
 Para mais informações sobre o evento acesse o link: http://railsgirls.com/
 
 
 <b> Materiais: </b> 
 Tutorial: http://www.maujor.com/railsgirlsguide/
 
-<b> Configuração do ambiente: <b>
+### Configuração do ambiente:
   
 Uso a distribuição Antergos, baseada no Arch Linux, então segui com um torial de instalação para Linux. Instalei o Ruby, sqlite3 e o Rails, mas nesse parte recebo a seguinte mensagem do terminal:
  ```
