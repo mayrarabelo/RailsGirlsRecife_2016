@@ -29,7 +29,7 @@ which: no rails in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/
 ```
 
 Para resolver isso é bem simples, basta fazer o que o sistema já sugeriu: adicionar o caminho na variável de ambiente PATH. Registrei o caminho nos arquivos ```.bash_profile``` e ```.bashrc``` que se encontram no ambiente local.
-```js
+```c
 export PATH=$PATH:/home/user/.gem/ruby/2.4.0/bin/
 ```
 
