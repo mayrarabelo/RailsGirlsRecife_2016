@@ -10,7 +10,7 @@ Tutorial: http://www.maujor.com/railsgirlsguide/
 ### Configuração do ambiente:
   
 Uso a distribuição Antergos, baseada no Arch Linux, então segui com um torial de instalação para Linux. Instalei o Ruby, sqlite3 e o Rails, mas nesse parte recebo a seguinte mensagem do terminal:
- ```
+```
 [user@hostname]: ~>$ gem install rails
 WARNING:  You don't have /home/user/.gem/ruby/2.4.0/bin in your PATH,
 	  gem executables will not run.
@@ -29,13 +29,11 @@ which: no rails in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/
 ```
 
 Para resolver isso é bem simples, basta fazer o que o sistema já sugeriu: adicionar o caminho na variável de ambiente PATH. Registrei o caminho nos arquivos ```.bash_profile``` e ```.bashrc``` que se encontram no ambiente local.
-
-```c
+```js
 export PATH=$PATH:/home/user/.gem/ruby/2.4.0/bin/
 ```
 
 Pronto! Agora o sistema já encontra o caminho do Rails.
-
 ```
 [user@hostname]: ~>$ which rails
 /home/mayra/.gem/ruby/2.4.0/bin/rails
