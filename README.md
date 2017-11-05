@@ -17,7 +17,7 @@ WARNING:  You don't have /home/user/.gem/ruby/2.4.0/bin in your PATH,
 Successfully installed rails-5.0.0
 ...
 ```
-O Rails foi instalado com sucesso, mas eu não tinha o caminho ```/home/user/.gem/ruby/2.4.0/bin``` adcionado na variável de ambiente PATH. E qual o problema? É que quando tentanva *chamar* o Rails o sistema não o encontra. Veja o que acontecia quando eu tentava verificar a versão:
+O Rails foi instalado com sucesso, mas eu não tinha o caminho `/home/user/.gem/ruby/2.4.0/bin` adcionado na variável de ambiente PATH. E qual o problema? É que quando tentanva *chamar* o Rails o sistema não o encontra. Veja o que acontecia quando eu tentava verificar a versão:
 ```
 [user@hostname]: ~>$ rails --version
 bash: rails: comando não encontrado
@@ -28,7 +28,7 @@ Ou quando tentava verificar a localização:
 which: no rails in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
 ```
 
-Para resolver isso é bem simples, basta fazer o que o sistema já sugeriu: adicionar o caminho na variável de ambiente PATH. Registrei o caminho nos arquivos `.bash_profile` e ``.bashrc`` que se encontram no ambiente local.
+Para resolver isso é bem simples, basta fazer o que o sistema já sugeriu: adicionar o caminho na variável de ambiente PATH. Registrei o caminho nos arquivos `.bash_profile` e `.bashrc` que se encontram no ambiente local.
 ```js
 export PATH=$PATH:/home/user/.gem/ruby/2.4.0/bin/
 ```
